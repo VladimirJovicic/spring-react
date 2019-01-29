@@ -1,0 +1,28 @@
+.Section {
+    border-radius: 15px;
+    padding: 20px; 
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: rgba(214, 214, 214,0.9);
+    border: solid 2px;
+    margin-top: 20px;
+    margin-left: 24%;
+    box-shadow: 5px 10px;
+    cursor: pointer;
+
+}
+
+.SectionTitle {
+    border-radius: 10px;
+    outline: 1px black;
+    background-color: rgb(122, 122, 122,0.8);
+    font-size: 30px;
+    color: black;
+}
+
+.SectionBody {
+    outline: 1px black;
+    font-size: 20px;
+}

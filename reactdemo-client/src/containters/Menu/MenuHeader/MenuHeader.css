@@ -1,0 +1,13 @@
+.MenuHeader {
+    font-size: 37px;
+}
+
+.MenuHeader:hover {
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.glyphicon {
+    font-size: 30px;
+}

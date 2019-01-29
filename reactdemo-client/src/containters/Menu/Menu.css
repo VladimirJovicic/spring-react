@@ -1,0 +1,42 @@
+.Menu {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    outline: 1px solid;
+    background-color: rgb(34, 34, 34);
+}
+
+.containter {
+    margin-top: 50px;
+    text-align: center;
+    height: 50%;
+    font-size: 30px;
+    color: rgb(173, 173, 173);
+    overflow: auto;
+    border: 1px  rgb(173, 173, 173) solid;
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+    font-family:Arial;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(173, 173, 173);
+    font-size: 35px
+}
+
+.AddNew {
+    text-align: center;
+    font-size: 37px;
+    margin-top: 25%;
+    color: rgb(173, 173, 173);
+    
+}
+
+.AddNew:hover {
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+

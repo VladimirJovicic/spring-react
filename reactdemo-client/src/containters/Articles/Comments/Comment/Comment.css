@@ -1,0 +1,24 @@
+.Comment {
+    background-color: rosybrown;
+    padding: 15px;
+    margin-bottom: 35px;
+    width: 70%;
+    height: 150px;
+    box-shadow: 5px 10px black;
+    border-radius: 12px;
+    display: table;
+    margin: 0 auto;
+    margin-top: 30px
+}
+
+.CommentAuthor {
+    background-color: grey;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+.CommentContetn {
+    background-color: white;
+    height: 70%;
+    font-size: 24px;
+}

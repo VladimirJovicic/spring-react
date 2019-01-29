@@ -1,0 +1,13 @@
+.Menu-Item {
+    padding-top: 30px;
+}
+
+.linkMenuItem {
+    color: rgb(173, 173, 173);
+    font-family: 'Sarabun', sans-serif;
+}
+
+.linkMenuItem:hover {
+    color: rgb(173, 173, 173);
+    font-family: 'Sarabun', sans-serif;
+}

@@ -1,0 +1,9 @@
+.UserCard {
+    background-color: rgba(173,173,173,0.8);
+    width: 15%;
+    height: 260px;
+    padding-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,49 @@
+.Auth-container {
+    height:auto; 
+    margin:0 auto; 
+    padding-top: 8%;
+
+}
+
+.Form {
+    background-color: rgba(173, 173, 173, 0.6);
+    width:35%; 
+    margin:0 auto;
+    padding-bottom: 10px;
+    padding-top: 21px;
+    border: solid 2px;
+    box-shadow: 2px 5px;    
+}
+
+.FormButton{
+    height:auto; 
+    margin:0 auto;  
+    display: table;  
+    width: 20%;
+    height: 4vh;
+    font-size: 15px;
+}
+
+.InputForm {
+    width: 80%;
+    height:auto; 
+    margin:0 auto; 
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.form-group Label {
+    margin-left: 10%;
+    color: rgb(34, 33, 33);
+    font-size: 15px;
+}
+
+
+.NotValidMessage {
+    color: rgba(209, 12, 12, 0.377);
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    display: table;
+    margin: auto;
+  }

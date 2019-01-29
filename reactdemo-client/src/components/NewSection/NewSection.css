@@ -1,0 +1,23 @@
+.NewSection{
+    margin: auto;
+    display: table;
+    padding-top: 3%;
+}
+
+.Input {
+    width: 750px;
+    font-size: 25px;
+}
+
+.InputTextarea{
+    min-width: 750px;
+    max-width: 750px;
+    min-height: 100px;
+    max-height: 600px;
+    font-size: 25px;
+}
+
+.WarningWrongInput {
+    color: rgb(199, 25, 25);
+    font-size: 17px;
+}

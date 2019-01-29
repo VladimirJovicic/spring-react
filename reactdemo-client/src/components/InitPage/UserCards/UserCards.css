@@ -1,0 +1,5 @@
+.UserCards {
+    padding-top: 5%; 
+    display: flex;
+    flex-wrap: wrap;
+}

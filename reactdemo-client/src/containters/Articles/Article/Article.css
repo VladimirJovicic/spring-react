@@ -1,0 +1,27 @@
+.Article {
+    border: solid 2px;
+    box-shadow: 5px 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 450px;
+    margin-left: 40px;
+    border-radius: 14px;
+    background-color: rgba(214, 214, 214,0.9);
+    cursor: pointer;
+
+}
+
+.ArticleTitle {
+    border-radius: 10px;
+    outline: 1px black;
+    background-color: rgb(119, 119, 119);
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.ArticleBody {
+    outline: 1px black;
+    font-size: 20px;
+    height: 300px;
+}
