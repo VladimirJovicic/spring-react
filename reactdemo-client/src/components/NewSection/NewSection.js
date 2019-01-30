@@ -40,31 +40,32 @@ class NewSection extends Component {
 
     render() {
         return (
+            <React.Fragment>
+                <div className='NewSection'>
+                    <Title title={'Nova oblast'} />
+                    <form>
+                        <div className="form-group">
+                            <input type='text' className='Input' placeholder='Naslov...'
+                                onChange={(event) => this.onChangeHandler(event, 'name')} value={this.props.newSection.name} />
+                            {!this.props.validInputs['name']
+                                ? <p className='WarningWrongInput'>* Naslov mora imati bar 5 karaktera</p>
+                                : null
+                            }
 
-            <div className='NewSection'>
-                <Title title={'Nova oblast'} />
-                <form>
-                    <div className="form-group">
-                        <input type='text' className='Input' placeholder='Naslov...'
-                            onChange={(event) => this.onChangeHandler(event, 'name')} value={this.props.newSection.name} />
-                        {!this.props.validInputs['name']
-                            ? <p className='WarningWrongInput'>* Naslov mora imati bar 5 karaktera</p>
-                            : null
-                        }
-
-                    </div>
-                    <div>
-                        <textarea className='InputTextarea' placeholder='Sadrzaj...'
-                            onChange={(event) => this.onChangeHandler(event, 'desctiption')} value={this.props.newSection.desctiption}>
-                        </textarea>
-                        {!this.props.validInputs['desctiption']
-                            ? <p className='WarningWrongInput'>* Sadrzaj mora imati bar 10 karaktera</p>
-                            : null
-                        }
-                    </div>
-                    <button className='btn btn-primary' onClick={this.addSection}>Potvrdi</button>
-                </form>
-            </div>
+                        </div>
+                        <div>
+                            <textarea className='InputTextarea' placeholder='Sadrzaj...'
+                                onChange={(event) => this.onChangeHandler(event, 'desctiption')} value={this.props.newSection.desctiption}>
+                            </textarea>
+                            {!this.props.validInputs['desctiption']
+                                ? <p className='WarningWrongInput'>* Sadrzaj mora imati bar 10 karaktera</p>
+                                : null
+                            }
+                        </div>
+                        <button className='btn btn-primary' onClick={this.addSection}>Potvrdi</button>
+                    </form>
+                </div>
+            </React.Fragment>
         )
     }
 }

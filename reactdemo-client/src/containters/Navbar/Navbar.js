@@ -9,6 +9,7 @@ const navbar = (props) => {
             .then(() => {
                 localStorage.setItem("username", null);
                 localStorage.removeItem('token');
+                localStorage.removeItem('role');
                 window.location.replace('/')
             })
     }
